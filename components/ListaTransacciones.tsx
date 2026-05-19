@@ -18,6 +18,6 @@ export default function ListaTransacciones() {
                 <Text>{item.monto}</Text>
             </View>
         )}
-        keyExtractor={(item, index) => item.numeroCuenta + index}>  </FlatList>
+        keyExtractor={(item, index) => item.numeroCuenta + (index+1)}>  </FlatList>
   )
 }

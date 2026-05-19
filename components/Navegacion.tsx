@@ -14,8 +14,8 @@ export default function Navegacion() {
       <NavigationContainer>
         <tab.Navigator>
 
-          <tab.Screen name="Configuracion" component={Inicio} />
-          <tab.Screen name="Home" component={Transferencia} />
+          <tab.Screen name="Inicio" component={Inicio} />
+          <tab.Screen name="Transferencia" component={Transferencia} />
           <tab.Screen name="Historial" component={Historial} />
     </tab.Navigator>
 
